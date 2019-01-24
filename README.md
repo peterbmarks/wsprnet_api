@@ -23,7 +23,7 @@ In order to access the endpoints the following has been created:
 
 Header:
 
-`Content Type: application/json`
+`Content-Type: application/json`
  
 Body:
  
@@ -37,8 +37,9 @@ Body:
  
 Login will return a JSON body. In it find these properties:
  
-`"sessid": "e8T0xDx-FkgT-Cwd6FPjdWaZqGxi8GXLFm1rPdSWI9Q"`
-`"session_name": "SESS70f94c916a4e1b4938c6d4158a067062"`
+`"sessid":"e8T0xDx-FkgT-Cwd6FPjdWaZqGxi8GXLFm1rPdSWI9Q"`
+`"session_name":"SESS70f94c916a4e1b4938c6d4158a067062"`
+`"token":"DUDx6gkw7UymmLxarDQjgTnjJ48LtTCqgqAsaT36YuF"`
  
 Going forward add the header:
  
