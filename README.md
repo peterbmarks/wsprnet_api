@@ -10,12 +10,14 @@ Two endpoints are provided. One for spots and another for statuses. A status rec
 
 You POST to these endpoints with the data containing json with parameters.
 
-Parameters are the same as the map page:
+Parameters are similar to those on the database page form:
 
-* "call" 
-* "reporter"
-* "band"
-* "unique"
+* callsign - transmitting callsign
+* reporter - reporting callsign
+* band - band code string
+* unique - report one of each spot
+* minutes - number of minutes back to report
+* spotnum_start - for paging, start at a given spot sequence number
  
 Spots are detailed, so same path and stations at different times will be in there. I will be creating a summary option to give the same output as the map.
  
